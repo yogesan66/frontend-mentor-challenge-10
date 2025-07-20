@@ -21,7 +21,10 @@ const HeroSection = () => {
               it really fulfilling its promise?
             </p>
             <div>
-              <button className="font-bold mt-5 lg:mt-0 bg-softRed py-3 px-8 tracking-[0.2em] hover:text-offWhite duration-200 transition-all hover:bg-veryDarkBlue">
+              <button
+                type="button"
+                className="font-bold mt-5 lg:mt-0 bg-softRed py-3 px-8 tracking-[0.2em] hover:text-offWhite duration-200 transition-all hover:bg-veryDarkBlue"
+              >
                 READ MORE
               </button>
             </div>

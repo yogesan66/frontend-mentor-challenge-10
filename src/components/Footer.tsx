@@ -10,7 +10,11 @@ const Footer = () => {
       >
         Frontend Mentor
       </a>
-      . Coded by <a href="#">Yogesan</a>.
+      . Coded by{" "}
+      <a href="#" className="underline hover:text-softRed">
+        Yogesan
+      </a>
+      .
     </div>
   );
 };
