@@ -3,7 +3,7 @@ import NewArticles from "./NewArticles";
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col md:flex-row gap-10">
+    <main className="flex flex-col md:flex-row gap-10">
       <div className="flex-1">
         <img
           src={desktop}
@@ -29,7 +29,7 @@ const HeroSection = () => {
         </div>
       </div>
       <NewArticles />
-    </div>
+    </main>
   );
 };
 

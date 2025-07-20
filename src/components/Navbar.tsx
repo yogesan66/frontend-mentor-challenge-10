@@ -35,7 +35,7 @@ const Navbar = () => {
         ></div>
       )}
 
-      <div
+      <aside
         className={`fixed top-0 right-0 z-50 bg-offWhite h-full w-2/3 max-w-xs shadow-lg transform transition-transform duration-300 ${
           open ? "translate-x-0" : "translate-x-full"
         }`}
@@ -59,7 +59,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-      </div>
+      </aside>
     </div>
   );
 };
